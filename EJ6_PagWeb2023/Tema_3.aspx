@@ -14,6 +14,10 @@
 <title>Tema 3 - AWS Amazon</title>
 </head>
 <body>
+<header>
+    <h1>Universidad Abierta y a Distancia Unad</h1>
+    <img src="Recursos/logo.png" alt="Logo de la Universidad Abierta y a Distancia Unad" width="200" height="50"/>
+</header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -42,9 +46,9 @@
 </nav>
 <div class="container contenedor">
   <div class="row">
-    <div class="col-md-6 contenedor">
+    <div class="col-md-6">
         <iframe width="100%" 
-                height="600px" 
+                height="300px" 
                 src="https://www.youtube.com/embed/nRh0wqwaV_A?si=NoxSFvBMUL_UlmtW" 
                 title="YouTube video player" 
                 frameborder="0" 
@@ -52,10 +56,10 @@
                 allowfullscreen>
         </iframe>
     </div>
-    <div class="col-md-6 contenedor">
+    <div class="col-md-6">
         <iframe src="Recursos/TensorFlow.pdf" 
-            width="100%" 
-            height="600px" 
+            width="100% 
+            height="300px" 
             style="border: none;">
         </iframe>
     </div>
@@ -65,9 +69,14 @@
         <audio src="sonidos/sonido_test.mp3" controls loop class="autostyle16"></audio>
     </div>
     <div class="col-sm contenedor">
-        contenido
+        Imagen de acuerdo al tema
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm contenedor">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

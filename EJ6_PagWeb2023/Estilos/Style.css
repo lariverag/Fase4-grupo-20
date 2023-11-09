@@ -1,10 +1,28 @@
-﻿body {
+﻿*{
     margin: 0;
     padding: 0;
+}
+
+body {
+    width: 100vw; 
+    height: auto;
+    padding: 0;
+    background: linear-gradient(90deg, #000000, #2e3a42, #3275e3);
+}
+
+header {
+    background-color: #0078D4;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
 .contenedor {
     margin-top: 20px;
     padding: 20px;
-    border: solid 1px red;
+    border: solid 1px blue;
+}
+
+.contenedor > p {
+    color: white;
 }
