@@ -93,7 +93,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Estilos\miestilo.css" />
+    <Content Include="Estilos\Style.css" />
     <Content Include="Index.aspx" />
+    <Content Include="TemaTres.aspx" />
+    <Content Include="Tema_3.aspx" />
     <Content Include="VerContenido.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -103,6 +106,20 @@
     </Compile>
     <Compile Include="Index.aspx.vb">
       <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TemaTres.aspx.designer.vb">
+      <DependentUpon>TemaTres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TemaTres.aspx.vb">
+      <DependentUpon>TemaTres.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Tema_3.aspx.designer.vb">
+      <DependentUpon>Tema_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tema_3.aspx.vb">
+      <DependentUpon>Tema_3.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="VerContenido.aspx.designer.vb">
@@ -161,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recursos\" />
+    <Folder Include="sonidos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

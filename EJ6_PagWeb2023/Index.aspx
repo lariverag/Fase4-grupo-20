@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
           rel="stylesheet" 
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-          crossorigin="anonymous">
+          crossorigin="anonymous"/>
 </head>
 <body>
     <header>
@@ -31,7 +31,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Tema 1 - Metadatos</a></li>
             <li><a class="dropdown-item" href="VerContenido.aspx">Tema 2 - Tensor Flow</a></li>
-            <li><a class="dropdown-item" href="#">Tema 3 - Aws Amazon</a></li>
+            <li><a class="dropdown-item" href="Tema_3.aspx">Tema 3 - Aws Amazon</a></li>
             <li><a class="dropdown-item" href="#">Tema 4 - El 5G y la tecnología del futuro</a></li>
             <li><a class="dropdown-item" href="#">Tema 5 - Data Warehouse</a></li>
           </ul>
